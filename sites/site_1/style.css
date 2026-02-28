@@ -1,0 +1,41 @@
+body {
+    background-color: antiquewhite;
+    font-size: 30px;
+    font-family: Arial,  sans-serif;
+    color:maroon
+}
+
+h1 {
+    font-size: 40px;
+    color:darkgoldenrod
+}
+
+
+p {
+    animation: color-change 8s infinite;
+}
+
+@keyframes color-change {
+  0%   { color: rgb(188, 115, 6); }
+  50%  { color: rgba(190, 7, 7, 0.705); }
+  100% { color: rgb(107, 57, 10); }
+}
+
+
+
+h2 {
+    font-size: 38px;
+    color:darkgoldenrod
+}
+
+h3 {
+    font-size: 35px;
+    color:darkgoldenrod
+}
+
+head {
+    background-color: bisque;
+    font-size: 30px;
+    font-family: Arial,  sans-serif;
+    color:maroon
+}
