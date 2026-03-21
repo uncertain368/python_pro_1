@@ -14,6 +14,10 @@ def factes():
 
 @app.route("/secret")
 def secret():
-    return "<h1>Ты нашёл тайную страницу!</h1>"
+    elements = '1234567890qwertyuioasdfghjklzxcvbnmQWRTYUIOPASDFGHJKLZXCVBNM!@#$%^&*'
+    password = ''
+    for i in range(15):
+        password += random.choice(elements)
+    return f"<h1>Ты нашёл тайную страницу!\nЗдесь рандомный пароль\n{password}</h1>"
 
 app.run(debug=True)
